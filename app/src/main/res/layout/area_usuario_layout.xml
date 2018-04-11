@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="br.senac.sp.l13.espacoshoramapp.Area_Usuario_Activity">
+
+        <TextView
+            android:id="@+id/area_do_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area do Usuário"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/borda">
+
+            <TextView
+                android:id="@+id/dados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dados:"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/dados"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/txtnome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nome"
+                android:layout_marginTop="20dp"
+                android:text="Cipher"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borda"
+                android:elevation="5dp"
+                />
+            <TextView
+                android:id="@+id/sobrenome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobrenome:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtnome"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/txtsobrenome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sobrenome"
+                android:layout_marginTop="20dp"
+                android:text="Glass"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borda"
+                android:elevation="5dp"
+                />
+            <TextView
+                android:id="@+id/cpf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPF:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtsobrenome"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/txtcpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cpf"
+                android:layout_marginTop="20dp"
+                android:text="XXX.XXX.XXX-XX"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borda"
+                android:elevation="5dp"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtcpf"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="20dp"
+                android:text="cipherglass@hotmail.com"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borda"
+                android:elevation="5dp"
+                />
+            <TextView
+                android:id="@+id/telefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtemail"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/txttelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/telefone"
+                android:layout_marginTop="20dp"
+                android:text="(XX)XXXXX-XXXX"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borda"
+                android:elevation="5dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txttelefone"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:elevation="5dp"
+                android:text="Alterar Dados"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/botao"/>
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao"
+            android:layout_margin="5dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/agendamentosatuais"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agendamentos Atuais"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,3">
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tecnicas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Técnica"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <TextView
+                android:id="@+id/dia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dia"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/horario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Horário"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/bioenergetica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bioenergética"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05/06/19"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/horario1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14:25"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/status1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conf."
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/garshana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Garshana"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15/08/19"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/horario2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14:15"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/status2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pend."
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/oncologica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Oncológica"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/data3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01/08/19"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/horario3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13:35"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/status3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conf."
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/massagem_russa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Massagem rus. col."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/data4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11/07/19"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/horario4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16:22"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/status4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conf."
+                    android:textSize="16sp"/>
+            </TableRow>
+
+        </TableLayout>
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao"
+            android:layout_margin="5dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/historico_tecnicas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Histórico de Técnicas Realizadas"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1,2,3">
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tecnicas_historico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Técnica"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/dia_historico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dia"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/horario_historico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horário"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/status_historico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Status"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/geotermal_japonesa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Geotermal jap."
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/data_historico1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="23/02/19"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/horario_historico1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16:05"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/status_historico1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realizado"
+                        android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/massagem_velas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Massagem velas"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/data_historico2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12/11/18"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/horario_historico2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13:05"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/status_historico2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realizado"
+                        android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/holistica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Holística"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/data_historico3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="05/12/18"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/horario_historico3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12:45"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/status_historico3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realizado"
+                        android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tibetana"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tibetana"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/data_historico4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="06/10/18"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/horario_historico4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13:50"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/status_historico4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cancelado"
+                        android:textSize="16sp"/>
+                </TableRow>
+
+            </TableLayout>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

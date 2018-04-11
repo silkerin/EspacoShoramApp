@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/area_do_usuário"
+        android:title="@string/area_de_usuario"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/agendamento"
+        android:title="@string/agendamento"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Contato"
+        android:title="@string/contato"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/tecnicas"
+        android:title="Técnicas"
+        app:showAsAction="never"
+        />
+
+</menu>

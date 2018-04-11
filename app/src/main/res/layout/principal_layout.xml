@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senac.sp.l13.espacoshoramapp.Principal_Activity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Espaço Shoram"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:id="@+id/area_do_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="7dp"
+        android:text="@string/area_do_usuario"
+        android:textSize="25sp"
+        android:onClick="area"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="#000"
+        android:background="#d2cece"
+        />
+    <TextView
+        android:id="@+id/Agendamento"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="7dp"
+        android:text="@string/agendamento"
+        android:textSize="25sp"
+        android:onClick="agendamento"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="#000"
+        android:background="#d2cece"
+        />
+    <TextView
+        android:id="@+id/Contato"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="7dp"
+        android:text="@string/contato"
+        android:textSize="25sp"
+        android:onClick="contato"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="#000"
+        android:background="#d2cece"
+        />
+    <TextView
+        android:id="@+id/tecnicas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="7dp"
+        android:text="@string/t_cnicas"
+        android:textSize="25sp"
+        android:onClick="tecnicas"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="#000"
+        android:background="#d2cece"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

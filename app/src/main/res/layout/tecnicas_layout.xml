@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senac.sp.l13.espacoshoramapp.Tecnicas_Activity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick Massage"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard1"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Massagem rápida, realizada em uma cadeira específica, é realizada com manobras orientais, para proporcionar relaxamento muscular, tem a duração em média de 15 minutos, promovendo alívio imediato."
+                android:layout_below="@+id/titulocard1"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage01"
+                android:layout_toRightOf="@id/titulocard1"
+                android:layout_marginLeft="80dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auriculoterapia"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard2"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Técnica Oriental que trata o corpo humano através de pontos na orelha quando estimulados promove bem-estar e alívio das dores localizadas.  Utiliza-se sementes, para ativar pontos reflexos específico na orelha de acordo com a necessidade de cada pessoa analisada terapeuticamente."
+                android:layout_below="@+id/titulocard2"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage02"
+                android:layout_toRightOf="@id/titulocard2"
+                android:layout_marginLeft="80dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reflexologia podal"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard3"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Massagem Oriental promove benefícios como relaxamento e bem-estar, a reflexologia é uma técnica que utiliza a pressão dos dedos em pontos específicos que estão conectados e correspondem a todas as partes do corpo."
+                android:layout_below="@+id/titulocard3"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage03"
+                android:layout_toRightOf="@id/titulocard3"
+                android:layout_marginLeft="55dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Massagem Clássica"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard4"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="A massagem clássica pode ser definida como uma compressão metódica e rítmica do corpo, ou parte dele, para que se obtenham efeitos terapêuticos. É um conjunto de diversas técnicas manuais que atuam nos tecidos corporais, com efeito sob o sistema nervoso, muscular, circulatório e energético, mobilizando estruturas variadas."
+                android:layout_below="@+id/titulocard4"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage04"
+                android:layout_toRightOf="@id/titulocard4"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drenagem Linfática"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="A drenagem linfática é uma técnica de massagem que trabalha o sistema linfático, por meio de movimentos específicos, estimula a regeneração dos tecidos, melhora o sistema imunitário, é relaxante e tranquilizante, combate a celulite e a gordura localizada e ainda melhora a ação anti-inflamatória do organismo."
+                android:layout_below="@+id/titulocard5"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage05"
+                android:layout_toRightOf="@id/titulocard5"
+                android:layout_marginLeft="45dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ventosaterapia"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard6"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="A Ventosaterapia é um método de tratamento baseado na Medicina Tradicional Chinesa, através da aplicação de copos de vidro ou plástico na superfície da pele gerando uma sucção, estimula o sistema nervoso, retirando a energia estagnada, trata gripes, resfriado, tensões musculares e liberando toxinas."
+                android:layout_below="@+id/titulocard6"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage06"
+                android:layout_toRightOf="@id/titulocard6"
+                android:layout_marginLeft="85dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card7"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moxaterapia"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="É uma técnica que assim como a acupuntura, utiliza os meridianos de energia para fins terapêuticos. Desobstrui os bloqueios de energia, porém, ao invés de agulhas, utiliza aplicações de calor nos pontos meridianos, proporciona relaxamento físico e mental."
+                android:layout_below="@+id/titulocard7"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage07"
+                android:layout_toRightOf="@id/titulocard7"
+                android:layout_marginLeft="110dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card8"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titulocard8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shiatsu"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textocard8"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Conhecido e chamado de “massagem oriental”, o Shiatsu é muito mais do que uma massagem, promove grandes benefícios para o nosso corpo como alivio dores de cabeça e musculares, diminui o estresse, previne doenças e a sensação de bem-estar é também alcançada com esta massagem."
+                android:layout_below="@+id/titulocard8"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/covercard8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage08"
+                android:layout_toRightOf="@id/titulocard8"
+                android:layout_marginLeft="155dp"/>
+
+            <TextView
+                android:id="@+id/tecagendar8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Clique aqui\npara agendar"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

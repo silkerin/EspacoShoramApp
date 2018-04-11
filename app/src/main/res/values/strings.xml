@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Espaco Shoram App</string>
+    <string name="selecione_uma_tecnica">Selecione uma Técnica:</string>
+    <string name="selecione_um_horario">Selecione um Horário:</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="area_de_usuario">área de usuario</string>
+    <string name="agendamento">Agendamento</string>
+    <string name="contato">Contato</string>
+    <string name="area_do_usuario">Área do Usuário</string>
+    <string name="t_cnicas">Técnicas</string>
+
+    <string-array name="tecnicas_sel">
+        <item>--Selecione--</item>
+        <item>Auriculoterapia</item>
+        <item>Quick Massage</item>
+        <item>Reflexologia podal</item>
+        <item>Massagem Clássica</item>
+        <item>Drenagem Linfática</item>
+        <item>Ventosaterapia</item>
+        <item>Moxaterapia</item>
+        <item>Shiatsu</item>
+    </string-array>
+</resources>
